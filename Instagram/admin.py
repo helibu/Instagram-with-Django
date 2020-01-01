@@ -1,8 +1,9 @@
 from django.contrib import admin
 
-from Instagram.models import Post, InstaUser, Like
+from Instagram.models import Post, InstaUser, Like, UserConnection
 # Register your models here.
 
 admin.site.register(Post)
 admin.site.register(InstaUser)
 admin.site.register(Like)
+admin.site.register(UserConnection)
